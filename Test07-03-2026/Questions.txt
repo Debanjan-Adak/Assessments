@@ -1,0 +1,62 @@
+Question
+Hibernate
+Description
+Question 1: Create Entity Classes
+
+Create two classes: Customer and Order.
+
+Customer Class Sample
+
+public class Customer {
+
+    private int id;
+    private String customerName;
+    private String email;
+    private String gender;
+    private long phone;
+    private LocalDate registrationDate;
+    private Order order;
+
+}
+Order Class Sample
+
+public class Order {
+
+    private int id;
+    private String orderNumber;
+    private String productName;
+    private int quantity;
+    private double price;
+    private LocalDate orderDate;
+    private Customer customer;
+
+}
+Task:
+Implement One-to-One mapping between Customer and Order using JPA annotations.
+
+
+
+2.
+Implement CRUD Operations
+
+Create the following implementation classes:
+
+CustomerDAOImpl
+OrderDAOImpl
+
+Perform the following operations:
+
+Insert a new customer with order.
+Update customer details.
+Delete customer by id.
+Fetch customer by id.
+Fetch all customers.
+Update order details and fetch order by id.
+
+Question 4: JPQL Query
+
+Write a JPQL query to fetch Customer by email.
+
+
+3.
+Number of Islands (leetcode)
