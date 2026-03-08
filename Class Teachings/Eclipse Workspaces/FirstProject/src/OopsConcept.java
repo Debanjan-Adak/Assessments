@@ -1,0 +1,8 @@
+
+public class OopsConcept {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
